@@ -12,6 +12,12 @@
 </head>
 <body>
 <h3>你好，世界</h3>
-<a href="hello">入门案例</a>
+<%--<a href="hello">入门案例</a>--%>
+<form action="postParam" method="post">
+    名字：<input  type="text" name="name" value=""><br>
+    生日：<input type="text" name="date" value="">
+    <input type="submit" value="提交">
+</form>
+<a href="testAnno?username=小芬">测试</a>
 </body>
 </html>
